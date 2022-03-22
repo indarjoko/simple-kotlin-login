@@ -22,7 +22,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun login(userName: String, password: String) {
-        if (userName == "name" && password == "1234") {
+        if (userName == "saya" && password == "abcd") {
             startActivity(Intent(this, HomeActivity::class.java))
             Toast.makeText(this, "Login Success!", Toast.LENGTH_SHORT).show()
         } else {
