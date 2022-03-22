@@ -6,6 +6,7 @@ import android.view.View
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import com.google.android.material.textfield.TextInputEditText
+import com.example.simplekotlinlogin.HomeActivity
 
 
 class MainActivity : AppCompatActivity() {
@@ -21,12 +22,11 @@ class MainActivity : AppCompatActivity() {
         )
     }
 
-    private fun login(userName: String, password: String) {
+    private fun login(userName: String, password: String) =
         if (userName == "saya" && password == "abcd") {
             startActivity(Intent(this, HomeActivity::class.java))
             Toast.makeText(this, "Login Success!", Toast.LENGTH_SHORT).show()
         } else {
             Toast.makeText(this, "Login Failed!", Toast.LENGTH_SHORT).show()
         }
-    }
 }
