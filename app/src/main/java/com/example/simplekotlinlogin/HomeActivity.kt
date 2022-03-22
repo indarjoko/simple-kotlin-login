@@ -1,8 +1,8 @@
 package com.example.simplekotlinlogin
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.example.simplekotlinlogin.R
+import androidx.appcompat.app.AppCompatActivity
+
 
 class HomeActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

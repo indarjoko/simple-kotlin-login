@@ -1,13 +1,12 @@
 package com.example.simplekotlinlogin
 
 import android.content.Intent
-import android.content.SharedPreferences
 import android.os.Bundle
 import android.view.View
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import com.google.android.material.textfield.TextInputEditText
-import com.example.simplekotlinlogin.HomeActivity
+
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -22,7 +21,7 @@ class MainActivity : AppCompatActivity() {
         )
     }
 
-    fun login(userName: String, password: String) {
+    private fun login(userName: String, password: String) {
         if (userName == "name" && password == "1234") {
             startActivity(Intent(this, HomeActivity::class.java))
             Toast.makeText(this, "Login Success!", Toast.LENGTH_SHORT).show()
