@@ -1,8 +1,8 @@
 <resources>
     <string name="app_name">Simple Kotlin Login</string>
-    <string name="welcome">welcome</string>
-    <string name="login">login</string>
-    <string name="hint_enterUserName">hint_enterUserName</string>
-    <string name="password">password</string>
-    <string name="txt_powered_by">txt_powered_by</string>
+    <string name="welcome">Welcome</string>
+    <string name="login">Login</string>
+    <string name="hint_enterUserName">Username</string>
+    <string name="password">Password</string>
+    <string name="txt_powered_by">Powered by</string>
 </resources>
